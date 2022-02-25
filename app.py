@@ -9,8 +9,8 @@ app = Flask(__name__)
 
 
 @app.route('/')
-def prime():
-    return render_template('prime.html')
+def index():
+    return render_template('index.html')
     
 # @app.route('/prime')
 # def prime():
@@ -167,7 +167,7 @@ def predict():
         arr1 = np.array([arr])
         pred = model.predict(arr1).reshape(1, -1)
         print(pred)
-        return render_template("prime.html", data=pred)
+        return render_template("index.html", data=pred)
 
 
 
