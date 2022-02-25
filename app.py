@@ -12,9 +12,6 @@ app = Flask(__name__)
 def index():
     return render_template('index.html')
     
-# @app.route('/prime')
-# def prime():
-#     return render_template('prime.html')
 
 @app.route('/predict', methods=['POST'])
 def predict():
