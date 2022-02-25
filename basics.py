@@ -4,8 +4,8 @@ app = Flask(__name__)
 
 
 @app.route('/')
-def index():
-    return render_template('index.html')
+def prime():
+    return render_template('prime.html')
 
 
 if __name__ == "__main__":
