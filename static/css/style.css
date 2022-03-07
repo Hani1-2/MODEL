@@ -5,6 +5,10 @@
   box-sizing: border-box;
   font-family: 'Poppins',sans-serif;
 }
+.navbar-brand{
+  text-indent: 3rem;
+  margin-left: 5rem;
+}
 .container{
     margin-top: 2.2rem;
     top: 10.5rem;
@@ -16,9 +20,13 @@
     box-shadow: 0 5px 10px rgba(0,0,0,0.15);
   }
 .text1{
-  text-align: center;
+  margin-top: 3rem;
   font-family: 'Courier New', Courier, monospace;
   color: #a08ca8;
+  font-weight: 500;
+  text-indent: 13rem;
+  margin-right: 3.5rem;
+  right: 30%;
 }
 .container .title{
     font-size: 25px;
@@ -96,12 +104,66 @@ form .category label .dot{
     font-weight: 500 ;
  }
  form .button input{
-    height: 100%;
+  height: 135%;
+  width: 30%;
+  display: grid; 
+  text-align:'center';
+  margin-right: 39rem;
+  border-radius: 10px 10%;
+  border: none;
+  color: #fff;
+  text-align:'center';
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  background: linear-gradient(135deg, #7a8b97, #9b59b6);
+}
+form .button input:hover{
+  opacity: 0.6;
+  background-color: #86718f;
+}
+.content form .user-details .text{
+    width:90px;
+}
+@media(min-width: 200px) {
+  form .user-details .input-box{
+    margin-bottom: 15px;
+    width: calc(100% / 1  - 20px);
+  }
+  .navbar-brand{
+    margin-left: 0.8rem;
+  }
+  .container{
+    margin-top: 2.2rem;
+    top: 10.5rem;
+    max-width: 950px;
     width: 100%;
-    border-radius: 5px;
+    background-color: #fff;
+    padding: 25px 10px;
+    border-radius: 2px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.15);
+  }
+  .text1{
+    margin-top: 3rem;
+    font-family: 'Courier New', Courier, monospace;
+    color: #a08ca8;
+    text-align: center;
+    font-weight: 500;
+    margin: auto;
+    text-indent: 0.4rem;
+
+  }
+  form .button input{
+    height: 135%;
+    width: 40%;
+    display: grid; 
+    text-align:'center';
+    margin: auto; 
+    border-radius: 10px 10%;
     border: none;
     color: #fff;
-    align-items: flex;
     font-size: 18px;
     font-weight: 500;
     letter-spacing: 1px;
@@ -109,6 +171,360 @@ form .category label .dot{
     transition: all 0.3s ease;
     background: linear-gradient(135deg, #7a8b97, #9b59b6);
   }
-.content form .user-details .text{
-    width:80px;
 }
+@media(min-width: 300px) {
+  form .user-details .input-box{
+    margin-bottom: 15px;
+    width: calc(100% / 1  - 20px);
+  }
+  .container{
+    margin-top: 2.2rem;
+    top: 10.5rem;
+    max-width: 950px;
+    width: 100%;
+    background-color: #fff;
+    padding: 25px 10px;
+    border-radius: 2px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.15);
+  }
+  .navbar-brand{
+    margin-left: 0.7rem;
+  }
+  .text1{
+    margin-top: 3rem;
+    font-family: 'Courier New', Courier, monospace;
+    color: #a08ca8;
+    text-align: center;
+    font-weight: 500;
+    margin: auto;
+    text-indent: 0.4rem;
+
+  }
+  form .button input{
+    height: 135%;
+    width: 30%;
+    display: grid; 
+    text-align:'center';
+    margin: auto; 
+    border-radius: 10px 10%;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background: linear-gradient(135deg, #7a8b97, #9b59b6);
+  }
+}
+
+@media(min-width: 414px) {
+  form .user-details .input-box{
+    margin-bottom: 15px;
+    width: calc(100% / 1  - 20px);
+  }
+  .container{
+    margin-top: 2.2rem;
+    top: 10.5rem;
+    max-width: 950px;
+    width: 100%;
+    background-color: #fff;
+    padding: 25px 10px;
+    border-radius: 2px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.15);
+  }
+  .text1{
+    margin-top: 3rem;
+    font-family: 'Courier New', Courier, monospace;
+    color: #a08ca8;
+    text-align: center;
+    font-weight: 500;
+    margin: auto;
+    text-indent: 0.4rem;
+
+  }
+  form .button input{
+    height: 135%;
+    width: 30%;
+    display: grid; 
+    text-align:'center';
+    margin: auto; 
+    border-radius: 10px 10%;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background: linear-gradient(135deg, #7a8b97, #9b59b6);
+  }
+}
+@media(min-width: 500px) and (max-width: 800px){
+  form .user-details .input-box{
+    margin-bottom: 15px;
+    width: calc(100% / 1 - 20px);
+  }
+  .container{
+    margin-top: 2.2rem;
+    top: 10.5rem;
+    max-width: 950px;
+    width: 100%;
+    background-color: #fff;
+    padding: 25px 10px;
+    border-radius: 2px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.15);
+  }
+  .content form .user-details .text{
+    width:90px;
+}
+.text1{
+  margin-top: 3rem;
+  font-family: 'Courier New', Courier, monospace;
+  color: #a08ca8;
+  font-weight: 500;
+  margin-left: auto;
+  text-indent: 0.4rem;
+}
+}
+
+@media(min-width: 600px) and (max-width: 800px){
+  form .user-details .input-box{
+    margin-bottom: 15px;
+    width: calc(100% / 1 - 20px);
+  }
+  .container{
+    margin-top: 2.2rem;
+    top: 10.5rem;
+    max-width: 950px;
+    width: 100%;
+    background-color: #fff;
+    padding: 25px 10px;
+    border-radius: 2px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.15);
+  }
+  .content form .user-details .text{
+    width:90px;
+}
+.text1{
+  margin-top: 3rem;
+  font-family: 'Courier New', Courier, monospace;
+  color: #a08ca8;
+  font-weight: 500;
+  margin-left: auto;
+  text-indent: 1rem;
+}
+}
+/* @media(max-width: 600px) and (max-width: 800px){
+  form .user-details .input-box{
+    margin-bottom: 15px;
+    width: calc(100% / 2 - 20px);
+  } */
+
+@media(min-width: 700px) {
+  form .user-details .input-box{
+    margin-bottom: 15px;
+    width: calc(100% / 2 - 20px);
+  }
+  .text1{
+    margin-top: 5rem;
+    font-family: 'Courier New', Courier, monospace;
+    color: #a08ca8;
+    font-weight: 500;
+    margin:2px;
+    text-indent: 0.5rem;
+  }
+  form .button input{
+    height: 135%;
+    width: 40%; 
+    border-radius: 10px 10%;
+    border: none;
+    color: #fff;
+    display: grid; 
+    text-align:'center';
+    margin-right: 35rem; 
+    position: relative;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background: linear-gradient(135deg, #7a8b97, #9b59b6);
+  }
+  form .button input{
+    left: 13rem;
+  }
+}
+@media(min-width: 800px) {
+  form .user-details .input-box{
+    margin-bottom: 15px;
+    width: calc(100% / 3 - 20px);
+  }
+  .container{
+    margin-top: 2.2rem;
+    top: 10.5rem;
+    max-width: 950px;
+    width: 100%;
+    background-color: #fff;
+    padding: 25px 10px;
+    border-radius: 2px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.15);
+  }
+  .content form .user-details .text{
+    width:90px;
+}
+form .button input{
+  height: 135%;
+  width: 40%;
+  border-radius: 10px 10%;
+  border: none;
+  color: #fff;
+  display: grid; 
+  text-align:'center';
+  margin-right: 50rem; 
+  position: relative;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  background: linear-gradient(135deg, #7a8b97, #9b59b6);
+}
+.text1{
+  margin-top: 3rem;
+  font-family: 'Courier New', Courier, monospace;
+  color: #a08ca8;
+  font-weight: 500;
+  margin-left: auto;
+  text-indent: 1rem;
+}}
+
+@media(min-width: 1000px) {
+  form .user-details .input-box{
+    margin-bottom: 15px;
+    width: calc(100% / 3 - 20px);
+  }
+  .container{
+    margin-top: 2.2rem;
+    top: 10.5rem;
+    max-width: 950px;
+    width: 100%;
+    background-color: #fff;
+    padding: 25px 10px;
+    border-radius: 2px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.15);
+  }
+  .content form .user-details .text{
+    width:90px;
+}
+form .button input{
+  height: 135%;
+  width: 30%;
+  border-radius: 45%;
+  border: none;
+  color: #fff;
+  display: grid; 
+  text-align:'center';
+  margin-right: 30rem; 
+  position: relative;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  background: linear-gradient(135deg, #7a8b97, #9b59b6);
+}
+.text1{
+  margin-top: 3rem;
+  font-family: 'Courier New', Courier, monospace;
+  color: #a08ca8;
+  font-weight: 500;
+  margin-left:  80px;
+  text-indent: 1rem;
+}}
+@media(min-width: 1280px) {
+  form .user-details .input-box{
+    margin-bottom: 15px;
+    width: calc(100% / 3 - 20px);
+  }
+  .container{
+    margin-top: 2.2rem;
+    top: 10.5rem;
+    max-width: 950px;
+    width: 100%;
+    background-color: #fff;
+    padding: 25px 10px;
+    border-radius: 2px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.15);
+  }
+  .content form .user-details .text{
+    width:90px;
+}
+form .button input{
+  height: 135%;
+  width: 30%;
+  border-radius: 45%;
+  border: none;
+  color: #fff;
+  display: grid; 
+  text-align:'center';
+  margin-right: 38rem; 
+  position: relative;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  background: linear-gradient(135deg, #7a8b97, #9b59b6);
+}
+.text1{
+  margin-top: 3rem;
+  font-family: 'Courier New', Courier, monospace;
+  color: #a08ca8;
+  font-weight: 500;
+  margin-left:  0.1px;
+  text-indent: 0.1px;
+}}
+@media(min-width: 1300px) {
+  form .user-details .input-box{
+    margin-bottom: 15px;
+    width: calc(100% / 3 - 20px);
+  }
+  .container{
+    margin-top: 2.2rem;
+    top: 10.5rem;
+    max-width: 950px;
+    width: 100%;
+    background-color: #fff;
+    padding: 25px 10px;
+    border-radius: 2px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.15);
+  }
+  .content form .user-details .text{
+    width:90px;
+}
+form .button input{
+  height: 135%;
+  width: 30%;
+  border-radius: 45%;
+  border: none;
+  color: #fff;
+  display: grid; 
+  text-align:'center';
+  margin-right: 42rem; 
+  position: relative;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  background: linear-gradient(135deg, #7a8b97, #9b59b6);
+}
+.text1{
+  margin-top: 3rem;
+  font-family: 'Courier New', Courier, monospace;
+  color: #a08ca8;
+  font-weight: 500;
+  margin-left:  0.1px;
+  text-indent: 0.1px;
+}}
