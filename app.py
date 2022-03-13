@@ -164,7 +164,7 @@ def predict():
         arr1 = np.array([arr])
         pred = model.predict(arr1).reshape(1, -1)
         print(pred)
-        return render_template("index.html", data=pred)
+        return render_template("result.html", data=pred)
 
 
 
