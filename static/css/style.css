@@ -5,6 +5,23 @@
   box-sizing: border-box;
   font-family: 'Poppins',sans-serif;
 }
+.text2{
+  margin-top: 1rem;
+  font-family: 'Courier New', Courier, monospace;
+  color: #391f44b6;
+  margin-left: 10rem;
+  font-weight: bold;
+  text-indent: 0.4rem;
+
+}
+.report{
+  margin-top: 1rem;
+  font-family: 'Courier New', Courier, monospace;
+  color: #391f44b6;
+  font-weight: bold;
+  margin-left: 10rem;
+
+}
 .title1{
   text-align: center;
   font-size: xx-large;
@@ -26,7 +43,7 @@
 .text1{
   margin-top: 3rem;
   font-family: 'Courier New', Courier, monospace;
-  color: #60466b;
+  color: #2a0849;
   font-weight: bold;
   text-indent: 13rem;
   margin-right: 3.5rem;
@@ -153,16 +170,31 @@ form .button input:hover{
     border-radius: 2px;
     box-shadow: 0 5px 10px rgba(0,0,0,0.15);
   }
+  .text2 {
+    margin-top: 1rem;
+    font-family: 'Courier New', Courier, monospace;
+    color: #240531d6;
+    margin-left: 2rem;
+    font-weight: bold;
+    text-indent: 0.4rem;
+}
   .text1{
     margin-top: 3rem;
     font-family: 'Courier New', Courier, monospace;
-    color: #60466b;
+    color: #2a0849;
     text-align: center;
     font-weight: bold;
     margin: auto;
     text-indent: 0.4rem;
 
   }
+  .report {
+    margin-top: 1rem;
+    font-family: 'Courier New', Courier, monospace;
+    color: #2a0849;
+    font-weight: bold;
+    margin-left: 1rem;
+}
   form .button input{
     height: 135%;
     width: 40%;
@@ -190,6 +222,21 @@ form .button input:hover{
     font-size: xx-large;
     margin-bottom: auto;
   }
+.report {
+    margin-top: 1rem;
+    font-family: 'Courier New', Courier, monospace;
+    color: #2a0849;
+    font-weight: bold;
+    margin-left: 3rem;
+}
+  .text2 {
+    margin-top: 1rem;
+    font-family: 'Courier New', Courier, monospace;
+    color: #240531d6;
+    margin-left: 3rem;
+    font-weight: bold;
+    text-indent: 0.4rem;
+}
   .container{
     margin-top: 2.2rem;
     top: 10.5rem;
@@ -206,7 +253,7 @@ form .button input:hover{
   .text1{
     margin-top: 3rem;
     font-family: 'Courier New', Courier, monospace;
-    color: #60466b;
+    color: #2a0849;
     text-align: center;
     font-weight: bold;
     margin: auto;
@@ -236,6 +283,13 @@ form .button input:hover{
     margin-bottom: 15px;
     width: calc(100% / 1  - 20px);
   }
+.report {
+    margin-top: 1rem;
+    font-family: 'Courier New', Courier, monospace;
+    color: #2a0849;
+    font-weight: bold;
+    margin-left: 3rem;
+}
   .title1{
     text-align: center;
     font-size: xx-large;
@@ -253,13 +307,21 @@ form .button input:hover{
   .text1{
     margin-top: 3rem;
     font-family: 'Courier New', Courier, monospace;
-    color: #60466b;
+    color: #2a0849;
     text-align: center;
     font-weight: bold;
     margin: auto;
     text-indent: 0.4rem;
 
   }
+  .text2 {
+    margin-top: 1rem;
+    font-family: 'Courier New', Courier, monospace;
+    color: #240531d6;
+    margin-left: 3rem;
+    font-weight: bold;
+    text-indent: 0.4rem;
+}
   form .button input{
     height: 135%;
     width: 30%;
@@ -282,6 +344,13 @@ form .button input:hover{
     margin-bottom: 15px;
     width: calc(100% / 1 - 20px);
   }
+  .report {
+    margin-top: 1rem;
+    font-family: 'Courier New', Courier, monospace;
+    color: #2a0849;
+    font-weight: bold;
+    margin-left: 3rem;
+}
   .container{
     margin-top: 2.2rem;
     top: 10.5rem;
@@ -298,9 +367,24 @@ form .button input:hover{
 .text1{
   margin-top: 3rem;
   font-family: 'Courier New', Courier, monospace;
-  color: #60466b;
+  color: #2a0849;
   font-weight: bold;
   margin-left: auto;
+  text-indent: 0.4rem;
+}
+.report {
+  margin-top: 1rem;
+  font-family: 'Courier New', Courier, monospace;
+  color: #2a0849;
+  font-weight: bold;
+  margin-left: 3rem;
+}
+.text2 {
+  margin-top: 1rem;
+  font-family: 'Courier New', Courier, monospace;
+  color: #240531d6;
+  margin-left: 3rem;
+  font-weight: bold;
   text-indent: 0.4rem;
 }
 }
@@ -326,10 +410,25 @@ form .button input:hover{
 .text1{
   margin-top: 3rem;
   font-family: 'Courier New', Courier, monospace;
-  color: #60466b;
+  color: #2a0849;
   font-weight: bold;
   margin-left: auto;
   text-indent: 1rem;
+}
+.text2 {
+  margin-top: 1rem;
+  font-family: 'Courier New', Courier, monospace;
+  color: #240531d6;
+  margin-left: 3rem;
+  font-weight: bold;
+  text-indent: 0.4rem;
+}
+.report {
+  margin-top: 1rem;
+  font-family: 'Courier New', Courier, monospace;
+  color: #2a0849;
+  font-weight: bold;
+  margin-left: 3rem;
 }
 .title1{
   text-align: center;
@@ -354,11 +453,26 @@ form .button input:hover{
   .text1{
     margin-top: 5rem;
     font-family: 'Courier New', Courier, monospace;
-    color: #60466b;
+    color: #2a0849;
     font-weight: bold;
     margin:2px;
     text-indent: 0.5rem;
   }
+  .report {
+    margin-top: 1rem;
+    font-family: 'Courier New', Courier, monospace;
+    color: #2a0849;
+    font-weight: bold;
+    margin-left: 3rem;
+}
+  .text2 {
+    margin-top: 1rem;
+    font-family: 'Courier New', Courier, monospace;
+    color: #240531d6;
+    margin-left: 3rem;
+    font-weight: bold;
+    text-indent: 0.4rem;
+}
   form .button input{
     height: 135%;
     width: 40%; 
@@ -389,6 +503,21 @@ form .button input:hover{
     text-align: center;
     font-size: xx-large;
   }
+  .text2 {
+    margin-top: 1rem;
+    font-family: 'Courier New', Courier, monospace;
+    color: #240531d6;
+    margin-left: 3rem;
+    font-weight: bold;
+    text-indent: 0.4rem;
+}
+.report {
+  margin-top: 1rem;
+  font-family: 'Courier New', Courier, monospace;
+  color: #2a0849;
+  font-weight: bold;
+  margin-left: 3rem;
+}
   .container{
     margin-top: 2.2rem;
     top: 10.5rem;
@@ -422,7 +551,7 @@ form .button input{
 .text1{
   margin-top: 3rem;
   font-family: 'Courier New', Courier, monospace;
-  color: #60466b;
+  color: #2a0849;
   font-weight: bold;
   margin-left: auto;
   text-indent: 1rem;
@@ -437,6 +566,14 @@ form .button input{
     text-align: center;
     font-size: xx-large;
   }
+  .text2 {
+    margin-top: 1rem;
+    font-family: 'Courier New', Courier, monospace;
+    color: #240531d6;
+    margin-left: 3rem;
+    font-weight: bold;
+    text-indent: 0.4rem;
+}
   .container{
     margin-top: 2.2rem;
     top: 10.5rem;
@@ -470,10 +607,17 @@ form .button input{
 .text1{
   margin-top: 3rem;
   font-family: 'Courier New', Courier, monospace;
-  color: #60466b;
+  color: #2a0849;
   font-weight: bold;
   margin-left:  80px;
   text-indent: 1rem;
+}
+.report {
+  margin-top: 1rem;
+  font-family: 'Courier New', Courier, monospace;
+  color: #2a0849;
+  font-weight: bold;
+  margin-left: 3rem;
 }}
 @media(min-width: 1280px) {
   form .user-details .input-box{
@@ -517,10 +661,25 @@ form .button input{
 .text1{
   margin-top: 3rem;
   font-family: 'Courier New', Courier, monospace;
-  color: #60466b;
+  color: #2a0849;
   font-weight: bold;
   margin-left:  0.1px;
   text-indent: 0.1px;
+}
+.report {
+  margin-top: 1rem;
+  font-family: 'Courier New', Courier, monospace;
+  color: #2a0849;
+  font-weight: bold;
+  margin-left: 3rem;
+}
+.text2 {
+  margin-top: 1rem;
+  font-family: 'Courier New', Courier, monospace;
+  color: #240531d6;
+  margin-left: 3rem;
+  font-weight: bold;
+  text-indent: 0.4rem;
 }}
 @media(min-width: 1300px) {
   form .user-details .input-box{
@@ -531,6 +690,14 @@ form .button input{
     text-align: center;
     font-size: xx-large;
   }
+  .text2 {
+    margin-top: 1rem;
+    font-family: 'Courier New', Courier, monospace;
+    color: #240531d6;
+    margin-left: 3rem;
+    font-weight: bold;
+    text-indent: 0.4rem;
+}
   .container{
     margin-top: 2.2rem;
     top: 10.5rem;
@@ -561,10 +728,25 @@ form .button input{
   transition: all 0.3s ease;
   background: linear-gradient(135deg, #7a8b97, #9b59b6);
 }
+.text2 {
+  margin-top: 1rem;
+  font-family: 'Courier New', Courier, monospace;
+  color: #240531d6;
+  margin-left: 3rem;
+  font-weight: bold;
+  text-indent: 0.4rem;
+}
+.report {
+  margin-top: 1rem;
+  font-family: 'Courier New', Courier, monospace;
+  color: #2a0849;
+  font-weight: bold;
+  margin-left: 3rem;
+}
 .text1{
   margin-top: 3rem;
   font-family: 'Courier New', Courier, monospace;
-  color: #60466b;
+  color: #2a0849;
   font-weight: bold;
   margin-left:  0.1px;
   text-indent: 0.1px;
